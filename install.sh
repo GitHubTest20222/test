@@ -24,3 +24,9 @@ install_3proxy() {
     chkconfig 3proxy on
     cd $WORKDIR
 }
+
+
+echo "installing apps"
+
+install_3proxy
+
